@@ -1,9 +1,9 @@
 <template>
   <div class="w-full h-full grid grid-cols-12 transition-all">
     <div
-      class="w-full h-full col-span-2 bg-gray-900 font-bold border-gray-300 border-r-2 pt-2 select-none cursor-pointer"
+      class="w-full h-full col-span-2 bg-gray-900 font-bold border-gray-100/30 border-r-2 pt-2 select-none cursor-pointer"
     >
-      <div class="flex flex-col border-gray-100 border-b-2 pb-2">
+      <div class="flex flex-col border-gray-100/30 border-b-2 pb-2">
         <ul class="w-full px-2">
           <li
             class="justify-start items-start mb-2 text-lg text-green-500 hover:bg-gray-100 hover:text-green-600"
@@ -59,7 +59,7 @@
     </div>
 
     <div
-      class="relative w-full h-full bg-gray-800 col-span-10 flex flex-col justify-center items-center  overflow-y-scroll"
+      class="relative w-full h-full bg-gray-800 col-span-10 flex flex-col justify-center items-center overflow-y-scroll"
     >
       <div
         id="hero"
@@ -75,74 +75,84 @@
         id="content"
         class="w-full h-5/6 bg-gray-800 p-10 flex justify-center"
       >
-        <div class="w-4/6 min-h-4/6 h-fit bg-gray-800 ">
+        <div class="w-4/6 min-h-4/6 h-fit bg-gray-800 tracking-widest ">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-            ipsum eget nisl tincidunt efficitur. Quisque lorem metus,
-            sollicitudin id mi id, sodales condimentum diam. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Curabitur vulputate tellus libero, non gravida sem
-            fringilla at. Donec imperdiet arcu eu porta vulputate. Nunc augue
-            odio, sagittis ac tristique quis, ornare a turpis. Suspendisse
-            tempus imperdiet dolor. Integer ac est eget lectus faucibus viverra.
-            Vestibulum malesuada, augue ac tempor interdum, nisi lacus semper
-            dui, ullamcorper sollicitudin ex tortor sed risus. Nunc eget leo vel
-            erat blandit sollicitudin id eu ipsum. Suspendisse ut molestie
-            purus. Phasellus ornare ante sagittis quam posuere tempor. Sed
-            pretium ex purus, eget dignissim arcu scelerisque nec. Phasellus
-            eget lectus at dui pharetra tincidunt a nec lacus. Vivamus tristique
-            ligula quis ultricies fermentum. Aenean id ultrices diam.
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-            ipsum eget nisl tincidunt efficitur. Quisque lorem metus,
-            sollicitudin id mi id, sodales condimentum diam. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Curabitur vulputate tellus libero, non gravida sem
-            fringilla at. Donec imperdiet arcu eu porta vulputate. Nunc augue
-            odio, sagittis ac tristique quis, ornare a turpis. Suspendisse
-            tempus imperdiet dolor. Integer ac est eget lectus faucibus viverra.
-            Vestibulum malesuada, augue ac tempor interdum, nisi lacus semper
-            dui, ullamcorper sollicitudin ex tortor sed risus. Nunc eget leo vel
-            erat blandit sollicitudin id eu ipsum. Suspendisse ut molestie
-            purus. Phasellus ornare ante sagittis quam posuere tempor. Sed
-            pretium ex purus, eget dignissim arcu scelerisque nec. Phasellus
-            eget lectus at dui pharetra tincidunt a nec lacus. Vivamus tristique
-            ligula quis ultricies fermentum. Aenean id ultrices diam.
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-            ipsum eget nisl tincidunt efficitur. Quisque lorem metus,
-            sollicitudin id mi id, sodales condimentum diam. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Curabitur vulputate tellus libero, non gravida sem
-            fringilla at. Donec imperdiet arcu eu porta vulputate. Nunc augue
-            odio, sagittis ac tristique quis, ornare a turpis. Suspendisse
-            tempus imperdiet dolor. Integer ac est eget lectus faucibus viverra.
-            Vestibulum malesuada, augue ac tempor interdum, nisi lacus semper
-            dui, ullamcorper sollicitudin ex tortor sed risus. Nunc eget leo vel
-            erat blandit sollicitudin id eu ipsum. Suspendisse ut molestie
-            purus. Phasellus ornare ante sagittis quam posuere tempor. Sed
-            pretium ex purus, eget dignissim arcu scelerisque nec. Phasellus
-            eget lectus at dui pharetra tincidunt a nec lacus. Vivamus tristique
-            ligula quis ultricies fermentum. Aenean id ultrices diam.
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-            ipsum eget nisl tincidunt efficitur. Quisque lorem metus,
-            sollicitudin id mi id, sodales condimentum diam. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Curabitur vulputate tellus libero, non gravida sem
-            fringilla at. Donec imperdiet arcu eu porta vulputate. Nunc augue
-            odio, sagittis ac tristique quis, ornare a turpis. Suspendisse
-            tempus imperdiet dolor. Integer ac est eget lectus faucibus viverra.
-            Vestibulum malesuada, augue ac tempor interdum, nisi lacus semper
-            dui, ullamcorper sollicitudin ex tortor sed risus. Nunc eget leo vel
-            erat blandit sollicitudin id eu ipsum. Suspendisse ut molestie
-            purus. Phasellus ornare ante sagittis quam posuere tempor. Sed
-            pretium ex purus, eget dignissim arcu scelerisque nec. Phasellus
-            eget lectus at dui pharetra tincidunt a nec lacus. Vivamus tristique
-            ligula quis ultricies fermentum. Aenean id ultrices diam.
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
+          </p>
+          <p>
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
+          </p>
+          <p>
+            恰恰与流行观念相反，Lorem
+            Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard
+            McClintock曾在Lorem
+            Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem
+            Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et
+            Malorum”（善恶之尽）里1.10.32
+            和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem
+            Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。
+            以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de
+            Finibus Bonorum et Malorum”章节1.10.32 ，
+            1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。
           </p>
         </div>
       </div>
@@ -166,7 +176,6 @@
 <script setup>
 import { ref, watchEffect } from "vue";
 import itembar from "./components/sidebaritem.vue";
-
 
 import {
   Box16Filled,
